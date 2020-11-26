@@ -1,0 +1,16 @@
+<h1>Reliable, efficient delivery</h1>
+<h2>Powered by Technology</h2>
+<p>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex culpa, dolorem
+  nostrum nobis repudiandae modi reiciendis consequatur labore assumenda ipsa
+  aut, autem vel officia omnis iure eos eveniet voluptatum accusamus.
+</p>
+<div class="cards">
+  <app-single-card
+    *ngFor="let card of cards"
+    title="{{ card.title }}"
+    description="{{ card.description }}"
+    color="{{ card.color }}"
+    image="{{ card.image }}"
+  ></app-single-card>
+</div>
